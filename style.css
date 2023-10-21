@@ -13,6 +13,13 @@
     border-radius: 10px;
 }
 
+.navbar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    margin-bottom: 10px;
+}
+
 .navbar a {
     background-color: white;
     background-size: cover;
@@ -25,33 +32,17 @@
     padding: 20px;
 }
 
-#home{
-    background-image: url(images/home.svg);
-}
+#home{background-image: url(images/home.svg);}
+#studybg{background-image: url(images/study.svg);}
+#quali{background-image: url(images/quali.svg);}
+#quanti{background-image: url(images/quanti.svg);}
+#conclusion{background-image: url(images/conclusion.svg);}
+#references{background-image: url(images/reference.svg);}
+#abtmendteam{background-image: url(images/researchers.svg);}
 
-#studybg{
-    background-image: url(images/study.svg);
-}
-
-#quali{
-    background-image: url(images/quali.svg);
-}
-
-#quanti{
-    background-image: url(images/quanti.svg);
-}
-
-#conclusion{
-    background-image: url(images/conclusion.svg);
-}
-
-#references{
-    background-image: url(images/reference.svg);
-}
-
-#abtmendteam{
-    background-image: url(images/researchers.svg);
-}
+#yt {background-image: url(images/youtube.svg);}
+#fb {background-image: url(images/facebook.svg);}
+#github {background-image: url(images/github.svg);}
 
 /** home page **/
 

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Feeling Passionate;
+    src: url(fonts/Feeling\ Passionate.otf);
+}
+
+/** navbar **/
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #540B0E;
+    border-radius: 10px;
+}
+
+.navbar a {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    height: 5px;
+    width: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#home{
+    background-image: url(images/home.svg);
+}
+
+#studybg{
+    background-image: url(images/study.svg);
+}
+
+#quali{
+    background-image: url(images/quali.svg);
+}
+
+#quanti{
+    background-image: url(images/quanti.svg);
+}
+
+#conclusion{
+    background-image: url(images/conclusion.svg);
+}
+
+#references{
+    background-image: url(images/reference.svg);
+}
+
+#abtmendteam{
+    background-image: url(images/researchers.svg);
+}
+
+/** home page **/
+
+.fullscreen1 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    background-color: #F3D8C7;
+}
+
+.title1 {
+    float: right;
+    background-color: #9E2A2B;
+    height: fit-content;
+}
+.title1 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+/** studybg **/
+.title2 {
+    float: right;
+    background-color: #E07A5F;
+}
+
+.title2 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+/** quali **/
+.title3 {
+    float: right;
+    background-color: #F3D8C7;
+}
+
+.title3 h1 {
+    font-family: Feeling Passionate;
+    color: black;
+}
+
+/** quanti **/
+
+.fullscreen4 {
+    background-color: #b2967d;
+}
+
+.title4 {
+    float: right;
+    background-color: #F3D8C7;
+}
+
+.title4 h1 {
+    font-family: Feeling Passionate;
+    color: black;
+}
